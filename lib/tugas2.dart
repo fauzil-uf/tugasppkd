@@ -28,7 +28,6 @@ class Tugas2 extends StatelessWidget {
 
           const SizedBox(height: 20),
 
-          // Container
           Container(
             margin: const EdgeInsets.symmetric(horizontal: 16),
             padding: const EdgeInsets.all(12),
@@ -47,7 +46,6 @@ class Tugas2 extends StatelessWidget {
 
           const SizedBox(height: 20),
 
-          // Row + Spacer
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 16),
             child: Row(
@@ -126,7 +124,6 @@ class Tugas2 extends StatelessWidget {
 
           const SizedBox(height: 20),
 
-          // Padding (Deskripsi)
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 16),
             child: Text(
@@ -137,7 +134,6 @@ class Tugas2 extends StatelessWidget {
 
           const Spacer(),
 
-          // Container Branding
           Container(
             height: 100,
             margin: const EdgeInsets.all(16),
