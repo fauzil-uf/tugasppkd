@@ -1,0 +1,1 @@
+Folder ini tidak digunakan untuk tugas7 karena gagal dalam menampilkan result area disebabkan sulit menyatukan result dari berbagai page sehingga saya memutuskan untuk menyatukan kode ke tugas7.dart
