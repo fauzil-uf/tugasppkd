@@ -113,6 +113,10 @@ class _LoginTugas9State extends State<LoginTugas9> {
                           ),
                           child: Text("Lanjut"),
                         ),
+                        TextButton(
+                          onPressed: () => context.pop(),
+                          child: Text("Kembali"),
+                        ),
                       ],
                     ),
                   );
