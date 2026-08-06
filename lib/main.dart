@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:tugas2/tugas10/login.dart';
+import 'package:tugas2/tugas11/service/preference_handler.dart';
+import 'package:tugas2/tugas11/splash_screen.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await PreferenceHandler.init();
   runApp(const MyApp());
 }
 
@@ -31,7 +35,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: LoginTugas9(),
+      home: SplashScreenTugas11(),
     );
   }
 }
